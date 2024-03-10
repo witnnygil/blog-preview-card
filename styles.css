@@ -1,0 +1,58 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 337px;
+    padding: 20px;
+    border: 1.9px solid black;
+    border-radius: 5%;
+    box-shadow: 10px 10px;
+}
+
+.image {
+    border-radius: 5%;
+    margin-right: 10px;
+}
+
+.tag {
+    font-size: small;
+    font-weight: bold;
+    border-color: hsl(47, 88%, 63%);
+    border-radius: 7%;
+    background-color: hsl(47, 88%, 63%);
+    padding: 10px 15px 10px 15px;
+    width: 60px;
+}
+
+.date {
+    font-size: small;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.description {
+    color: gray;
+    font-size: 16px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    margin-right: 10px;
+    height: 50px;
+}
+
+.profile-name {
+    text-align: left;
+}
+
+div:hover
