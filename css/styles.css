@@ -1,17 +1,23 @@
 body {
     background-color: hsl(47, 88%, 63%);
     font-family: 'Figtree', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     background-color: hsl(0, 0%, 100%);
-    width: 337px;
+    width: 90%;
+    max-width: 337px;
     padding: 20px;
     border: 1.9px solid black;
     border-radius: 5%;
     box-shadow: 10px 10px;
 }
-
 .image {
     border-radius: 5%;
     margin-right: 10px;
@@ -54,5 +60,3 @@ body {
 .profile-name {
     text-align: left;
 }
-
-div:hover
